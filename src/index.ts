@@ -1,10 +1,10 @@
 import BasicTypes from './basic-types';
 
-const greet = (name: string, age: number): string => {
-  return `Hello, ${name}! Age: ${age}`;
+const greet = (name: string): string => {
+  return `Hello, ${name}!`;
 };
 
 // eslint-disable-next-line no-console
-console.log(greet('Commander Sohag 🚀. How are you?', 20));
+console.log(greet('Commander Sohag 🚀'));
 
 BasicTypes();
