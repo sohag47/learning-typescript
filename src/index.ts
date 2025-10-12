@@ -1,4 +1,4 @@
-import BasicTypes from './basic-types';
+import FunctionImplementations from './function-implement';
 
 const greet = (name: string): string => {
   return `Hello, ${name}!`;
@@ -7,4 +7,5 @@ const greet = (name: string): string => {
 // eslint-disable-next-line no-console
 console.log(greet('Commander Sohag 🚀'));
 
-BasicTypes();
+// BasicTypes();
+FunctionImplementations();
