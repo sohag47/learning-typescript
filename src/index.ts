@@ -1,4 +1,4 @@
-import FunctionImplementations from './function-implement';
+import UtilityTypes from './utility-types';
 
 const greet = (name: string): string => {
   return `Hello, ${name}!`;
@@ -8,4 +8,5 @@ const greet = (name: string): string => {
 console.log(greet('Commander Sohag 🚀'));
 
 // BasicTypes();
-FunctionImplementations();
+// FunctionImplementations();
+UtilityTypes();
