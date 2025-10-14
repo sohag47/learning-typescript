@@ -1,4 +1,4 @@
-import GenericTypes from './generic-type';
+import ClassTypes from './class_types';
 
 const greet = (name: string): string => {
   return `Hello, ${name}!`;
@@ -10,4 +10,5 @@ console.log(greet('Commander Sohag 🚀'));
 // BasicTypes();
 // FunctionImplementations();
 // UnionIntersectionTypes();
-GenericTypes();
+// GenericTypes();
+ClassTypes();
