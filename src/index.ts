@@ -1,4 +1,4 @@
-import UnionIntersectionTypes from './union_intersection';
+import GenericTypes from './generic-type';
 
 const greet = (name: string): string => {
   return `Hello, ${name}!`;
@@ -9,5 +9,5 @@ console.log(greet('Commander Sohag 🚀'));
 
 // BasicTypes();
 // FunctionImplementations();
-// UtilityTypes();
-UnionIntersectionTypes();
+// UnionIntersectionTypes();
+GenericTypes();
